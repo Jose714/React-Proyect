@@ -1,3 +1,11 @@
+body{
+  background: -webkit-linear-gradient(90deg, #F1F2B5 10%, #135058 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F1F2B5 10%, #135058 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F1F2B5 10%, #135058 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F1F2B5 10%, #135058 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F1F2B5 10%, #135058 90%); /* W3C */
+
+}
 .App {
   text-align: center;
 }
@@ -7,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,5 +26,16 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color:black;
+}
+.boton{
+  background-color: #09d3ac;
+  color: black;
+  border-style: double;
+  width: 300px;
+  height: 100px;
+  font: bold;
+  font-family: cursive;
+  font-size: 30px;
+
 }
